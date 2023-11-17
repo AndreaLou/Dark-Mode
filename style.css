@@ -31,3 +31,12 @@ body h3,
 body h4 {
   margin-bottom: 1em;
 }
+
+.vertical-text {
+  writing-mode:vertical-rl;
+  text-orientation:mixed; 
+}
+
+footer a { 
+  display: block;
+}
