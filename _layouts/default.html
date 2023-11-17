@@ -7,77 +7,91 @@
 
     <link href="/assets/css/style.css rel=stylesheet">
     <link href="../style.css" rel="stylesheet">
-    
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <!-- Hero Section  -->
+    <!--------------------------------- Hero Section ---------------------------------------->
 
     <!-- Logo and Menu -->
-    <div>
-        <nav>
-            <a href="#">LOGO</a>
-            <a href="#">Nav 1</a>
-            <a href="#">Nav 1</a>
-            <a href="#">Nav 1</a>
-            <a href="#">Nav 1</a>
+<section class="mb-10">
+    <div class="mb-4 flex items-center justify-between border-b border-black">
+        <div class="">
+            <a href="#" class="uppercase">name of company</a>
+        </div>
+        <nav class="flex gap-4">
+            
+            <a href="#" class="p-2">Nav 1</a>
+            <a href="#" class="p-2">Nav 1</a>
+            <a href="#" class="p-2">Nav 1</a>
+            <a href="#" class="p-2 pr-0">Nav 1</a>
         </nav>
     </div>
     <!-- Main Heading -->
-    <div>
-        <h1> This is a fun heading</h1>
+    <div  >
+        <h1 class="uppercase text-5xl font-extrabold "> This is a <br> fun heading</h1>
     </div>
     <!-- Hero image -->
-    <div>
-        <img>
+    <div class="mb-8">
+        <img src="images/moody-1.jpg">
     </div>
     <!-- hero information  -->
-    <div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+    <div class=" grid grid-cols-6 ">
+        <div>
+            <h4 class="uppercase font-semibold">fact: <span class="block font-extrabold text-2xl">900</span></h4>
+        </div>
+        <div>
+            <h4 class="uppercase font-semibold">fact: <span class="block font-extrabold text-2xl">Y2K</span></h4>
+        </div>
+        <div>
+            <h4 class="uppercase font-semibold">fact: <span class="block font-extrabold text-2xl">420K</span></h4>
+        </div>
+        <div class="col-span-3 font-medium">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae fuga itaque et? Vero, totam. Molestiae temporibus, a quam quibusdam sapiente necessitatibus. Temporibus, minima voluptatem? Iure explicabo minima cumque magnam inventore.</p>
+        </div>
     </div>
-
-    <!-- 1st image gallery section  -->
+</section>
+    <!----------------------------- 1st image gallery section ------------------------------ -->
 <section>
     <!-- text -->
-    <div>
-        <h2>another <span>sick heading for attention</span> </h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima laboriosam adipisci cumque hic ullam et, molestiae dolorem optio porro. Tempora vero in veniam deserunt soluta dolore adipisci natus placeat sunt?</p>
+    <div class="text-center">
+        <h2 class="uppercase font-bold text-2xl leading-snug">another <br> <span class="capitalize font-medium">sick heading for attention</span> </h2>
+        <p class="max-w-md mx-auto mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima laboriosam adipisci cumque hic ullam et, molestiae dolorem optio porro. Tempora vero in veniam deserunt soluta dolore adipisci natus placeat sunt?</p>
     
     </div>
-    <!-- Gallery  -->
-    <div>
+    <!--Gallery  -->
+    <div class="grid grid-cols-3 gap-3 mb-10">
         <div>
-            <img>
+            <img src="images/moody-2.jpg">
         </div>
 
         <div>
-            <img>
+            <img src="images/moody-3.jpg">
         </div>
 
         <div>
-            <img>
+            <img src="images/moody-4.jpg">
         </div>
 
         <div>
-            <img>
+            <img src="images/moody-5.jpg">
         </div>
 
         <div>
-            <img>
+            <img src="images/moody-6.jpg">
         </div>
 
         <div>
-            <img>
+            <img src="images/moody-7.jpg">
         </div>
     </div>
     <!-- Buttton -->
-    <div>
-        <a href="#"></a>
+    <div class="text-center ">
+        <a class="bg-black text-white  py-2 px-8  uppercase " href="#">sign up</a>
     </div>
 </section>
-    <!-- Sign up and photo -->
+
+    <!----------------------------------- Sign up and photo ------------------------------------->
+
 <section>
     <div>
             <div>
@@ -93,7 +107,8 @@
     </div>
 </section>
     
-    <!-- statement -->
+    <!-------------------------------------- Statement ------------------------------------->
+
  <section>
     <div>
         <h4> sometimes all you need is a big random block of text to really drive home the point</h4>
@@ -101,7 +116,7 @@
 
 </section>
 
-    <!-- Gallery -->
+    <!------------------------------------- Gallery ---------------------------------------->
 <section>
     <div>
         <h3>Gallery</h3>
@@ -112,13 +127,63 @@
     </div>
     <div>
         <a href="#">Sign Up</a>
+
     </div>
 </section>
 
-</div>
+<!----------------------------------------------- Gallery 2 ------------------------------------>
+<section>
+    <div>
 
-
+    </div>
 </section>
+
+<!--------------------------------------------- Contact Us ----------------------------------->
+<section>
+    <div>
+        <div>
+            <h3>Contact Us.</h3>
+            <form></form>
+            <button></button>
+        </div>
+        <div>
+            <img>
+        </div>
+    </div>
+</section>
+
+<!------------------------------------------------ Footer ------------------------------------->
+
+<footer>
+
+    <div>
+        <h3 >Lorem ipsum </h3>
+        <a href="">Lorem ipsum</a>
+        <a href="">Lorem ipsum</a>
+        <a href="">Lorem ipsum</a>
+        <a href="">Lorem ipsum</a>
+        
+    </div>
+
+    <div>
+        <h3 >Lorem ipsum </h3>
+        <a href="">Lorem ipsum</a>
+        <a href="">Lorem ipsum</a>
+        <a href="">Lorem ipsum</a>
+        <a href="">Lorem ipsum</a>
+        
+    </div>
+    <form class="pb-[5%]">
+        <label  for="name" class="pl-2 block uppercase font-extrabold ">Subscribe to our newsletter:</label><br>
+        <input type="text" id="fname" name="fname" class="rounded-full w-full mb-2  bg-orange-400 "><br>
+
+        <div class="text-right">
+            <h3 class="uppercase"></h3>
+                <input type="submit" value="Subscribe" class="bg-black text-white py-2 px-4 rounded-full uppercase" >
+            </div>
+    </form>
+</footer>
+
     
 </body>
 </html>

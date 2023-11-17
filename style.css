@@ -13,7 +13,19 @@ html {
   scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
 }
 
-body *{
+/* body *{
   border: 1px solid;
+} */
+
+section {
+
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
+body h1,
+body h2,
+body h3, 
+body h4 {
+  margin-bottom: 1em;
+}
