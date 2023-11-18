@@ -586,6 +586,18 @@ video {
   font-size: 2.25rem;
   line-height: 1;
 }
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 1;
+}
+.text-sm {
+  font-size: 0.875rem;;
+  line-height: 1.2;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1.2;
+}
 .font-extrabold {
   font-weight: 800;
 }
@@ -598,14 +610,26 @@ video {
 .font-bold {
   font-weight: 700;
 }
+.font-light {
+  font-weight: 300;
+}
+.font-normal {
+  font-weight: 400;
+}
 .uppercase {
   text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
 }
 .capitalize {
   text-transform: capitalize;
 }
 .leading-snug {
   line-height: .95;
+}
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
 .text-white {
   --tw-text-opacity: 1;
